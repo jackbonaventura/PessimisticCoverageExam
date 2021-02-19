@@ -5,10 +5,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /*
- * This method check if a string of a formatted date is equals to an input string.
- * The method expects the date format to be "dd/MM/yyyy" and the test method enters
- * the input string date. However, the test case is wrong! Because the entered string
- * has the wrong format "yyyy/MM/dd" and the test fails even though the dates are the
+ * This method dateFormat(String s) of the class DateFormatter checks if a string of 
+ * a formatted date is equals to an input string.
+ * The method expects the date format to be "dd/MM/yyyy".  The test method enters
+ * the input date string but the test case is wrong! Because the entered string
+ * has the wrong format "yyyy/MM/dd" and the test fails even though dates are the
  * same and the method dateFormat is bug-free.
  */
 
