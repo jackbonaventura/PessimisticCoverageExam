@@ -15,7 +15,7 @@ class TestFormatter {
 		String date = "2020/12/31";
 		//String date = "31/12/2020"
 		DateFormatter df = new DateFormatter();
-		assertEquals(true, df.dateFormat(date));
+		assertEquals(true, df.checkDate(date));
 	}
 	
 }

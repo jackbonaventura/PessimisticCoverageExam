@@ -5,7 +5,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /*
- * This method dateFormat(String s) of the class DateFormatter checks if a string of 
+ * This method checkDate(String s) of the class DateFormatter checks if a string of 
  * a formatted date is equals to an input string.
  * The method expects the date format to be "dd/MM/yyyy".  The test method enters
  * the input date string but the test case is wrong! Because the entered string
@@ -14,7 +14,8 @@ import java.util.Date;
  */
 
 public class DateFormatter {
-	public boolean dateFormat(String s) throws ParseException {
+	
+	public boolean checkDate(String s) throws ParseException {
 		Date date = new SimpleDateFormat("dd/MM/yyyy").parse("31/12/2020");
 		String result = new SimpleDateFormat("dd/MM/yyyy").format(date);
 		return result.equals(s);
